@@ -1,0 +1,9 @@
+Config:
+{'eps': 0.001, 'eval_mode': True, 'lr': 0.0001, 'data_dir': 'DanceTrack', 'diffnet': 'HMINet', 'interval': 5, 'augment': True, 'encoder_dim': 256, 'tf_layer': 3, 'epochs': 800, 'batch_size': 2048, 'seed': 123, 'eval_every': 20, 'gpus': [0], 'eval_at': 800, 'det_dir': 'detections', 'info_dir': 'DanceTrack/test1', 'reid_dir': 'reid_embeddings', 'save_dir': 'results/yolov10n_diffmot', 'eval_expname': 'yolov10n_diffmot', 'dataset': 'dancetrack', 'high_thres': 0.6, 'low_thres': 0.4, 'w_assoc_emb': 2.2, 'aw_param': 1.7, 'preprocess_workers': 16, 'device': 'cuda', 'eval_device': 'None', 'config': 'configs/yolov10n_dancetrack.yaml', 'exp_name': 'yolov10n_dancetrack'}
+
+
+Eval on:
+dancetrack
+
+
+Processing frame 10 (13.06 fps)

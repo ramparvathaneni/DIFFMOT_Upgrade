@@ -1,0 +1,16 @@
+Config:
+{'dataset': 'dancetrack', 'data_root': 'DanceTrack', 'data_dir': 'DanceTrack', 'test_root': 'DanceTrack/test1', 'info_dir': 'DanceTrack/test1', 'det_root': 'detections', 'det_dir': 'detections', 'reid_root': 'reid_embeddings', 'reid_dir': 'reid_embeddings', 'detector': 'yolov10n', 'motion_model_path': 'pretrainedmodels/motion/DanceTrack_epoch800.pt', 'use_motion': True, 'use_reid': True, 'high_thres': 0.6, 'low_thres': 0.4, 'w_assoc_emb': 2.2, 'aw_param': 1.7, 'match_thres': 0.8, 'new_track_thres': 0.6, 'track_buffer': 30, 'save_root': 'results/yolov10n_diffmot', 'save_dir': 'results/yolov10n_diffmot', 'eval_mode': True, 'eval_expname': 'yolov10n_diffmot', 'eval_at': 800, 'epochs': 800, 'batch_size': 4, 'lr': 0.001, 'eval_every': 100, 'augment': False, 'preprocess_workers': 4, 'gpus': [0], 'timesteps': 1000, 'beta_schedule': 'linear', 'device': 'cuda', 'verbose': True, 'config': 'configs/yolov10n_dancetrack.yaml', 'exp_name': 'yolov10n_dancetrack'}
+
+
+Eval on:
+dancetrack
+
+
+Config:
+{'dataset': 'dancetrack', 'data_root': 'DanceTrack', 'data_dir': 'DanceTrack', 'test_root': 'DanceTrack/test1', 'info_dir': 'DanceTrack/test1', 'det_root': 'detections', 'det_dir': 'detections', 'reid_root': 'reid_embeddings', 'reid_dir': 'reid_embeddings', 'detector': 'yolov10n', 'motion_model_path': 'pretrainedmodels/motion/DanceTrack_epoch800.pt', 'use_motion': True, 'use_reid': True, 'high_thres': 0.6, 'low_thres': 0.4, 'w_assoc_emb': 2.2, 'aw_param': 1.7, 'match_thres': 0.8, 'new_track_thres': 0.6, 'track_buffer': 30, 'save_root': 'results/yolov10n_diffmot', 'save_dir': 'results/yolov10n_diffmot', 'eval_mode': True, 'eval_expname': 'yolov10n_diffmot', 'eval_at': 800, 'epochs': 800, 'batch_size': 4, 'lr': 0.001, 'eval_every': 100, 'augment': False, 'preprocess_workers': 4, 'gpus': [0], 'timesteps': 1000, 'beta_schedule': 'linear', 'device': 'cuda', 'verbose': True, 'config': 'configs/yolov10n_dancetrack.yaml', 'exp_name': 'yolov10n_dancetrack'}
+
+
+Eval on:
+dancetrack
+
+
